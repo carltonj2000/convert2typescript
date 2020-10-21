@@ -47,9 +47,9 @@ console.log(getPersonName(william));
 console.log(getPersonName());
 console.log(getPersonName(dave));
 
-const obj: any = {};
-console.log(obj.id);
-const obj2: unknown = {};
+// const obj: any = {};
+// console.log(obj.id);
+// const obj2: unknown = {};
 // console.log(obj2.id); // fails
 
 type ThingWithID = {

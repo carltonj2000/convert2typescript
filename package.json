@@ -1,11 +1,12 @@
 {
   "scripts": {
     "start": "ts-node test.ts",
-    "testObject": "ts-node objects.test.js",
+    "testObjects": "ts-node objects.test.ts",
     "compile": "tsc *.ts",
     "typeCoverage": "type-coverage --detail"
   },
   "devDependencies": {
+    "@types/node": "^14.14.2",
     "ts-node": "^9.0.0",
     "type-coverage": "^2.14.0",
     "typescript": "^4.0.3"
